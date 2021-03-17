@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Coin Market Cap</title>
+</head>
+
+<body>
+    <h2>
+        CriptoMoedas
+    </h2>
+
+    <div id="coins">
+
+    </div>
+
+    <script type="text/javascript">
+        //Var api key
+        var apiKey = {
+            key: '41031225-7d2d-456c-8598-b0a585dd5bcd'
+        }
+        var texto = ' ';
+
+
+        fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=' + apiKey.key)
+            .then((response) => {
+                if (!response.ok) throw new console.error(new Error('Erro ao executar a rquisiçao, status' + response.status));
+                return response.json();
+            })
+            .then((api) => {
+                for (let index = 0; index < 10; index++) {
+                    texto = texto +
+                        `<div class="media">
+                                        <img src="./img/bitcoin.png" alt="Coin image" class="align-self-center mr-3" width="100" height="60">
+                                        <div class="media-body">
+                                            <h5 class="mt-2">Nome: ${api.data[index].name}</h5>
+                                            <p>Simbolo: ${api.data[index].symbol}</p>
+                                            <p>First Historical Data: ${api.data[index].first_historical_data}
+                         </div>
+                         </div>`;
+
+                    document.getElementById('coins').innerHTML = texto;
+                }
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #202020;
+    --linksColor: #AAA;
+    --linkColorHover: #fff;
+    --brancoAcinzentado: #eeeeeeec;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ELEMENTO BASE*/
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--brancoAcinzentado);
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+        text-decoration: none;
+        color: var(--linksColor);
+        margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--linkColorHover);
+}
+
+header .logo{
+    height: 98px;
+    width: 14rem;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-image: url("../img/netflix-logo-fundo-transparente.png");
+
+}
+
+/* FILME PRINCIPAL */
+
+.filme-principal{
+    font-size: 16px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.40)), url('../img/stranger-things-season-3-2019-4k-5k-38.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    width: 55%;
+    text-align: justify;
+}
+
+.titulo{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0, .50);
+    border: none;
+    color: var(--brancoAcinzentado);
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+
+    transition: .45s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+.carrosel{
+    margin: 10px;
+}
+
+.box-filme{
+    height: 50%;
+    width: 50%;
+    display: block;
+}

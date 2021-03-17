@@ -1,0 +1,23 @@
+#mainheader{
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#mainheader h5{
+    display: inline;
+    float: left;
+}
+
+nav{
+    display: inline;
+    float: right;
+}
+
+li{
+    display: inline;
+    margin-right: 5px ;
+    margin-left: 5px;
+}
