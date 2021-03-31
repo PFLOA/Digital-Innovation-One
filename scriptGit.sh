@@ -29,7 +29,7 @@ commit() {
 
     texto="\ngit commit -m QUALISPHP-$globalNumeroAtendimento - $globalTituloAtendimentoJira \ngit push\n"
 
-    git commit -m QUALISPHP-$globalNumeroAtendimento - $globalTituloAtendimentoJira
+    git commit -m "QUALISPHP-$globalNumeroAtendimento - $globalTituloAtendimentoJira"
     git push
 
     echo -e $texto
@@ -64,7 +64,7 @@ init() {
     git checkout development
     git checkout qualisphp-$numeroAtendimento
     git merge development
-    git add
+    git add .
 
     echo -e $texto
 
