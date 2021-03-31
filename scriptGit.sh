@@ -48,7 +48,8 @@ tag() {
     texto="\ngit tag $globalNumeroVersaoSistema-$globalNumeroAtendimento.$numeroVersaoAtendimento\nFim do processo de Versionamento\n"
 
     git tag $globalNumeroVersaoSistema-$globalNumeroAtendimento.$numeroVersaoAtendimento
-
+    git push origin $globalNumeroVersaoSistema-$globalNumeroAtendimento.$numeroVersaoAtendimento
+    
     echo -e $texto
 }
 
