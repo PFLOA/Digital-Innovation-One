@@ -1,6 +1,10 @@
 # Compiled class file
 *.class
 
+# Pasta bin
+/Desafios/C#/Desafios aritméticos em c#/bin/*
+/Desafios/C#/Desafios aritméticos em c#/obj/Debug/*
+
 # Log file
 *.log
 
