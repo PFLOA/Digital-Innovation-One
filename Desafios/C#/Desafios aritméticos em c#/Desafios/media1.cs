@@ -11,7 +11,7 @@ namespace DesafiosAritméticosEmCsharp.Desafios
             b = Convert.ToDouble(Console.ReadLine());
             
             //complete com as variaveis
-            mediaP = (( a * 3.5) + ( b * 7.5)) / (3.5 + 7.5);
+            mediaP = ((a * 3.5) + (b * 7.5)) / (3.5 + 7.5);
 
             Console.WriteLine("MEDIA = {0}", mediaP.ToString("0.00000"));
         }
