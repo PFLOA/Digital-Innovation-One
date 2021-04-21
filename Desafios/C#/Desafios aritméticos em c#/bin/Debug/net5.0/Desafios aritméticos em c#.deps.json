@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Desafios aritméticos em c#/1.0.0": {
+        "runtime": {
+          "Desafios aritméticos em c#.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Desafios aritméticos em c#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
