@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Digital-Innovation-One\\Desafios\\C#\\Desafios aritméticos em c#\\Desafios aritméticos em c#.csproj": {}
+    "/Users/macbookair/Documents/Digital-Innovation-One/Desafios/C#/Desafios aritméticos em c#/Desafios aritméticos em c#.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Digital-Innovation-One\\Desafios\\C#\\Desafios aritméticos em c#\\Desafios aritméticos em c#.csproj": {
+    "/Users/macbookair/Documents/Digital-Innovation-One/Desafios/C#/Desafios aritméticos em c#/Desafios aritméticos em c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Digital-Innovation-One\\Desafios\\C#\\Desafios aritméticos em c#\\Desafios aritméticos em c#.csproj",
+        "projectUniqueName": "/Users/macbookair/Documents/Digital-Innovation-One/Desafios/C#/Desafios aritméticos em c#/Desafios aritméticos em c#.csproj",
         "projectName": "Desafios aritméticos em c#",
-        "projectPath": "D:\\GitHub\\Digital-Innovation-One\\Desafios\\C#\\Desafios aritméticos em c#\\Desafios aritméticos em c#.csproj",
-        "packagesPath": "C:\\Users\\Paulo Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Digital-Innovation-One\\Desafios\\C#\\Desafios aritméticos em c#\\obj\\",
+        "projectPath": "/Users/macbookair/Documents/Digital-Innovation-One/Desafios/C#/Desafios aritméticos em c#/Desafios aritméticos em c#.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Users/macbookair/Documents/Digital-Innovation-One/Desafios/C#/Desafios aritméticos em c#/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Paulo Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

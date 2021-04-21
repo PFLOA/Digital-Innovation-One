@@ -21,11 +21,11 @@ namespace DesafiosAritméticosEmCsharp.Desafios
             horaMomentoTermino = Convert.ToInt32(dadosMomentoTermino[0]);
            
 
-            int transformaSegundosInicio = ();
-            int transformaSegundosTermino = ();
+            // int transformaSegundosInicio = ();
+            // int transformaSegundosTermino = ();
 
-            int somaTotalSegundos = (            );
-            int W =  / ();
+            // int somaTotalSegundos = (            );
+            //int W =  / ();
           
 
             Console.WriteLine("{0} dia(s)", W);
