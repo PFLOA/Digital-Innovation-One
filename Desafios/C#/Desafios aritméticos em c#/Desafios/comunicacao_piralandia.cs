@@ -1,3 +1,5 @@
+using System;
+
 namespace DesafiosAritméticosEmCsharp.Desafios
 {
     public class comunicacao_piralandia

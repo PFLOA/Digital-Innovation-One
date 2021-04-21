@@ -4,11 +4,31 @@ namespace DIO.Bank
 {
     public class Conta
     {
-        // Atributos
+        #region Propriedades    
+
+        ///<summary>
+        /// Define se a conta é de pessoa física ou pessoa jurídica.
+        ///</summary>
         private TipoConta TipoConta { get; set; }
+        
+        ///<summary>
+        /// Saldo atual da conta.
+        ///</summary>
         private double Saldo { get; set; }
+
+        ///<summary>
+        /// Valor do crédito atual da conta.
+        ///</summary>
         private double Credito { get; set; }
+
+        ///<summary>
+        /// Nome do cliente.
+        ///</summary>
         private string Nome { get; set; }
+
+        #endregion
+
+        #region Construtores
 
         /// <summary>
         ///	 Construtor com parâmetros de construção.
@@ -25,11 +45,15 @@ namespace DIO.Bank
             this.Nome = nome;
         }
 
-		/// <summary>
-        ///	 Construtor com parâmetros de construção.
+        #endregion
+
+        #region Métodos Publicos
+
+        /// <summary>
+        ///	 Saca valor do saldo.
         /// </summary>
         /// <param name="valorSaque">Valor a ser debitado da conta.</param>
-        /// <return>Retorna um boolean: True ou False</return>
+        /// <return>Retorna um boolean: True se o saque foi realizado com sucesso, False caso o saldo seja insuficiente.</return>
         public bool Sacar(double valorSaque)
         {
             // Validação de saldo suficiente
@@ -41,15 +65,14 @@ namespace DIO.Bank
             this.Saldo -= valorSaque;
 
             Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
-            // https://docs.microsoft.com/pt-br/dotnet/standard/base-types/composite-formatting
 
             return true;
         }
 
         /// <summary>
-        ///	 Construtor com parâmetros de construção.
+        ///	 Deposita valor no saldo.
         /// </summary>
-        /// <param name="valorSaque">Valor a ser debitado da conta.</param>
+        /// <param name="valorDeposito">Valor a ser creditado da conta.</param>
         public void Depositar(double valorDeposito)
         {
             this.Saldo += valorDeposito;
@@ -58,9 +81,10 @@ namespace DIO.Bank
         }
 
         /// <summary>
-        ///	 Construtor com parâmetros de construção.
+        ///	 Transfere saldo entre contas.
         /// </summary>
-        /// <param name="valorSaque">Valor a ser debitado da conta.</param>
+        /// <param name="valorTransferencia">Valor a ser debitado da conta.</param>
+        /// <param name="contaDestino">Conta de destino.</param>
         public void Transferir(double valorTransferencia, Conta contaDestino)
         {
             if (this.Sacar(valorTransferencia))
@@ -69,15 +93,17 @@ namespace DIO.Bank
             }
         }
 
-		/// <summary>
+        /// <summary>
         ///	 Método ToString para construir a tabela no console.
         /// </summary>
-		/// <param name="header">Valor a ser debitado da conta.</param>
-		/// <param name="contagem">Valor a ser debitado da conta.</param>
+        /// <param name="header">Valor a ser debitado da conta.</param>
+        /// <param name="contagem">Valor a ser debitado da conta.</param>
         /// <return>string</return>
         public string ToString(string header, int contagem)
         {
-            return string.Format(header, contagem.ToString(),this.TipoConta, this.Nome, this.Saldo.ToString("C2"), this.Credito.ToString("C2"));
+            return string.Format(header, contagem.ToString(), this.TipoConta, this.Nome, this.Saldo.ToString("C2"), this.Credito.ToString("C2"));
         }
+
+        #endregion
     }
 }

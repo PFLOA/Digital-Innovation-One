@@ -1,3 +1,5 @@
+using System;
+
 namespace DesafiosAritméticosEmCsharp.Desafios
 {
     public class tempo_de_evento
@@ -25,7 +27,7 @@ namespace DesafiosAritméticosEmCsharp.Desafios
             // int transformaSegundosTermino = ();
 
             // int somaTotalSegundos = (            );
-            //int W =  / ();
+            int W =  / ();
           
 
             Console.WriteLine("{0} dia(s)", W);
