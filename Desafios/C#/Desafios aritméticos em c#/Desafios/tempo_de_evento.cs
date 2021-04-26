@@ -5,32 +5,32 @@ namespace DesafiosAritméticosEmCsharp.Desafios
     public class tempo_de_evento
     {
         public static void Executar(){
-            int diaInicio, diaTermino, horaMomentoInicio, minutoMomentoInicio, segundoMomentoInicio;
-            int horaMomentoTermino, minutoMomentoTermino, segundoMomentoTerminio;
-            //continue escrevendo a solucao
+            // int diaInicio, diaTermino, horaMomentoInicio, minutoMomentoInicio, segundoMomentoInicio;
+            // int horaMomentoTermino, minutoMomentoTermino, segundoMomentoTerminio;
+            // //continue escrevendo a solucao
 
-            string[] dadosInicio = Console.ReadLine().Split();
-            diaInicio = Convert.ToInt32(dadosInicio[1]);
+            // string[] dadosInicio = Console.ReadLine().Split();
+            // diaInicio = Convert.ToInt32(dadosInicio[1]);
 
-            string[] dadosMomentoInicio = Console.ReadLine().Split();
-            horaMomentoInicio = Convert.ToInt32(dadosMomentoInicio[0]);
+            // string[] dadosMomentoInicio = Console.ReadLine().Split();
+            // horaMomentoInicio = Convert.ToInt32(dadosMomentoInicio[0]);
     
 
-            string[] dadosTermino = Console.ReadLine().Split();
-            diaTermino = Convert.ToInt32(dadosTermino[1]);
+            // string[] dadosTermino = Console.ReadLine().Split();
+            // diaTermino = Convert.ToInt32(dadosTermino[1]);
 
-            string[] dadosMomentoTermino = Console.ReadLine().Split();
-            horaMomentoTermino = Convert.ToInt32(dadosMomentoTermino[0]);
+            // string[] dadosMomentoTermino = Console.ReadLine().Split();
+            // horaMomentoTermino = Convert.ToInt32(dadosMomentoTermino[0]);
            
 
-            // int transformaSegundosInicio = ();
-            // int transformaSegundosTermino = ();
+            ///* int transformaSegundosInicio = ();
+            /// int transformaSegundosTermino = ();
 
             // int somaTotalSegundos = (            );
-            int W =  / ();
+            // int W =  / ();
           
 
-            Console.WriteLine("{0} dia(s)", W);
+            // Console.WriteLine("{0} dia(s)", W);
         }
     }
 }
