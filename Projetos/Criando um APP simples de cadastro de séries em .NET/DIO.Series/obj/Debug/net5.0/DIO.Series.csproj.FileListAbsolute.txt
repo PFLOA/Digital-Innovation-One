@@ -1,0 +1,15 @@
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/obj/Debug/net5.0/DIO.Series.csprojAssemblyReference.cache
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/obj/Debug/net5.0/DIO.Series.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/obj/Debug/net5.0/DIO.Series.AssemblyInfoInputs.cache
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/obj/Debug/net5.0/DIO.Series.AssemblyInfo.cs
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/obj/Debug/net5.0/DIO.Series.csproj.CoreCompileInputs.cache
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/bin/Debug/net5.0/DIO.Series.deps.json
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/bin/Debug/net5.0/DIO.Series.runtimeconfig.json
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/bin/Debug/net5.0/DIO.Series.runtimeconfig.dev.json
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/bin/Debug/net5.0/DIO.Series.dll
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/bin/Debug/net5.0/ref/DIO.Series.dll
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/bin/Debug/net5.0/DIO.Series.pdb
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/obj/Debug/net5.0/DIO.Series.dll
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/obj/Debug/net5.0/ref/DIO.Series.dll
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/obj/Debug/net5.0/DIO.Series.pdb
+/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Criando um APP simples de cadastro de séries em .NET/DIO.Series/obj/Debug/net5.0/DIO.Series.genruntimeconfig.cache
