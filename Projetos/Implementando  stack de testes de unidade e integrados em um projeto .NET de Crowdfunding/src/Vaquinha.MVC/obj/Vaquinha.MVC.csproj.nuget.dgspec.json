@@ -1,0 +1,330 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.MVC/Vaquinha.MVC.csproj": {}
+  },
+  "projects": {
+    "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Domain/Vaquinha.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Domain/Vaquinha.Domain.csproj",
+        "projectName": "Vaquinha.Domain",
+        "projectPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Domain/Vaquinha.Domain.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.MVC/Vaquinha.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.MVC/Vaquinha.MVC.csproj",
+        "projectName": "Vaquinha.MVC",
+        "projectPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.MVC/Vaquinha.MVC.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.MVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Domain/Vaquinha.Domain.csproj": {
+                "projectPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Domain/Vaquinha.Domain.csproj"
+              },
+              "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Service/Vaquinha.Service.csproj": {
+                "projectPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Service/Vaquinha.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "NToastNotify": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Repository/Vaquinha.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Repository/Vaquinha.Repository.csproj",
+        "projectName": "Vaquinha.Repository",
+        "projectPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Repository/Vaquinha.Repository.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Domain/Vaquinha.Domain.csproj": {
+                "projectPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Domain/Vaquinha.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Service/Vaquinha.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Service/Vaquinha.Service.csproj",
+        "projectName": "Vaquinha.Service",
+        "projectPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Service/Vaquinha.Service.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Repository/Vaquinha.Repository.csproj": {
+                "projectPath": "/Users/macbookair/Documents/Digital-Innovation-One/Projetos/Implementando  stack de testes de unidade e integrados em um projeto .NET de Crowdfunding/src/Vaquinha.Repository/Vaquinha.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
